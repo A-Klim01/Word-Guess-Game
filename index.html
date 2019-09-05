@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Word guess game</title>
+</head>
+<body>
+    <h1>Word Guess Game</h1>
+    <br>
+    <div id="game">
+        <p id="direction-text">Press any key to begin</p>
+        <p id="userchoice-text"></p>
+        <p id="wins-text"></p>
+        <p id="losses-text"></p>
+    </div>
+    
+    <script type="text/javascript">
+    var words= ["football","hockey","basketball","United Center", "Allstate arena","Soliders Field", "Walter Payton", "Michael Jordan"," Scottie Pippen", "Jeremy Roenick", "Jonathan Toews","Patrick Kane"];
+
+    var word = words[Math.floor(math.random() *words.length)];
+    var answerArray =[];
+    for (var i= 0; i< word.length; i++){
+        answerArray[i] = "_";
+    }
+
+    var remainingLetters = word.length;
+    while (remainingletters > 0){
+        alert(answerArray.join (" "));
+
+        var guess =prompt("Guess a letter, or exit game");
+        if (guess == null){
+        break;
+        } else if (guess.length !== 1);
+        alert("Please choose a letter")
+
+    }else{
+        for (var j = 0; j < word.length; j++){
+
+            if (word[j] === guess){
+                
+            }
+        }
+    }
+
+
+    
+    var wins = 0;
+    var losses = 0;
+
+    if (guess === {a-zA-Z])
+
+    document.onkeyup = function(event)
+
+)
+
+
+
+    </script> 
+    
+
+    
+</body>
+</html>
